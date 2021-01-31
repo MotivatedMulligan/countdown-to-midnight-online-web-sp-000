@@ -1,8 +1,9 @@
 def countdown(number)
     while number > 0
+loop do
     puts ("#{number} SECOND(S)!")
     number -= 1
-end
+loop end
 if number = 0
   puts ("HAPPY NEW YEAR!")
 end
